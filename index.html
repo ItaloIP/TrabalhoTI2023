@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Italo Pereira Vieira / 2° Regular 6</title>
+</head>
+<body>
+    <header>
+        <div class="User">
+                <div class="Username" onclick="changeName()">
+                    <img src="https://i0.wp.com/omeudiadia.com.br/wp-content/uploads/2022/04/gatito.webp?resize=700%2C592&ssl=1" alt="" height="40px" width="50px">
+                    <div id="Username">Clica aqui!</div>
+                </div>
+        </div>
+        <input type="button" value="White" id="White" onclick="changeColor(true)">
+        <input type="button" value="Black" id="Black" onclick="changeColor()">
+        <input type="button" class="Portuguese" value="Português/BR" onclick="changeLanguage('Portuguese')">
+        <input type="button" class="English" value="English/USA" onclick="changeLanguage('')">
+    </header>
+    <section>
+        <h1 class="English">The LGPD</h1>
+        <h1 class="Portuguese">A LGPD</h1>
+        <p class="Portuguese">A LGPD (Lei Geral de Proteção de Dados pessoais) é uma lei implantada no Brasil (como a GDPR, ou General Data Protection Regulation na Europa) criada em Julho de 2018 com o ojetivo de proteger os dados dos brasileiros. No âmbito da LGPD, o tratamento dos dados pessoais pode ser realizado por dois agentes de tratamento, o Controlador e o Operador. Além deles, há a figura do Encarregado, que é a pessoa indicada pelo Controlador para atuar como canal de comunicação entre o Controlador, o Operador, os(as) titulares dos dados e a Autoridade Nacional de Proteção de Dados (ANPD). Se as empresas que estão no Brasil não seguirem esta lei, serão obrigados a pagaram 2% do rendimento da empresa e tendo risco de ser fechada.</p>
+        <p class="English">The LGPD (Lei Geral de Proteção de Dados Pessoais, in Portuguese) is a law implanted in Brazil (like a GDPR, or General Data Protection Regulation in EUROPE) created in Jul 2018 with the goal of protecting Brazilians' data. Under the LGPD, the processing of personal data can be performed by two processing agents, the Controller and the Operator. In addition to them, there is the figure of the Person in Charge, who is the person appointed by the Controller to act as a communication channel between the Controller, the Operator, the data subjects and the National Data Protection Authority (ANPD). If the enterprises of Brazil don't follow this law,  they will have to pay 2% of your billing and have to risk closing. 
+        </p>
+        <br>    
+        <img class="image" src="https://gtrigueiro.com.br/wp-content/uploads/2021/09/lgpd-vanzolini-1200x874-1-768x559.jpg" alt="LGPD Image">
+        <br>
+        <h1 class="Portuguese">Diferença entre GDPR e LGPD</h1>
+        <h1 class="English">Difference between GDPR and LGPD</h1>
+        <p class="Portuguese">Além da diferença que a GDPR funciona apenas na Europa, ambas possuem diversidades quando são comparadas, como a seguir na tabela:</p>
+        <p class="English">Besides the difference that GDPR only works in Europe, both have diversities when compared, as next: </p>
+        <table class="Portuguese">
+            <tr>
+                <th>LGPD</th>
+                <th>GDPR</th>
+            </tr>
+            <tr>
+                <th colspan="2">Princípios de Tratamento e Privacidade</th>
+            </tr>
+            <tr>
+                <td>
+                    Finalidade; <br>
+                    Adequação; <br>
+                    Necessidade; <br>
+                    Livre acesso; <br>
+                    Qualidade dos dados; <br>
+                    Transparência; <br>
+                    Segurança; <br>
+                    Prevenção; <br>
+                    Não discriminação; <br>
+                    Responsabilização. <br>
+                </td>
+                <td>
+                    Licitude; <br>
+                    Lealdade; <br>
+                    Transparência; <br>
+                    Limitação das finalidades; <br>
+                    Minimização dos dados; <br>
+                    Exatidão; <br>
+                    Limitação da conservação; <br>
+                    Integridade e confiabilidade; <br>
+                    Responsabilidade.
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Relação Entre Controlador de Dados e Operador de Dados</th>
+            </tr>
+            <tr>
+                <td>
+                    A LGPD requer somente que o Operador execute o tratamento dos dados conforme orientação do controlador.
+                </td>
+                <td>
+                    GDPR estabelece a exigência de um contrato entre Controlador e Operador de Dados, que explicite o tratamento dos dados.
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Penalidades e Sanções</th>
+            </tr>
+            <tr>
+                <td>
+                    A LGPD define multas, sanções e processos civis a controladores e operadores, de acordo com o tipo de evento e severidade.
+                </td>
+                <td>
+                    A GDPR define multas, sanções e processos civis a controladores e operadores, de acordo com o tipo de evento e severidade.
+                </td>
+            </tr>
+        </table>
+        <table class="English">
+            <tr>
+                <th>LGPD</th>
+                <th>GDPR</th>
+            </tr>
+            <tr>
+                <th colspan="2">Principles of Privacy and Tratament</th>
+            </tr>
+            <tr>
+                <td>
+                    Goal; <br>
+                    Adequacy; <br>
+                    Need; <br>
+                    Free acess; <br>
+                    Data quality; <br>
+                    Transparency; <br>
+                    Security; <br>
+                    Prevention; <br>
+                    Non-discrimination; <br>
+                    Accountability. <br>
+                </td>
+                <td>
+                    Legality; <br>
+                    Loyalty; <br>
+                    Transparency; <br>
+                    Purpose limitation; <br>
+                    Data minimization; <br>
+                    Accuracy; <br>
+                    Conservation limitation; <br>
+                    Integrity and reliability; <br>
+                    Responsibility.
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Relationship Between Data Controller and Data Operator</th>
+            </tr>
+            <tr>
+                <td>
+                    The LGPD only requires that the Operator carry out the processing of data as directed by the controller.
+                </td>
+                <td>
+                    GDPR establishes the requirement of a contract between Controller and Data Operator, which explains the processing of data.
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Penalties and Sanctions</th>
+            </tr>
+            <tr>
+                <td>
+                    The LGPD defines fines, sanctions and civil proceedings for controllers and operators, according to the type of event and severity.
+                </td>
+                <td>
+                    The GDPR defines fines, sanctions and civil proceedings for controllers and operators, according to the type of event and severity.
+                </td>
+            </tr>
+        </table>
+        <img class="image" src="https://images.prismic.io/secure-privacy/7987972a-edbb-42d1-a9d9-191aaaed5c3b_lgpd-vs-gdpr-key-similarities-and-differences.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=45" alt="LGPD vs GDPR">
+    </section>
+    <footer>
+        <em class="English">Reference</em>
+        <em class="Portuguese">Referências</em>
+        <div>
+            <a href="https://idcatedra.com.br/2021/08/gdpr-o-que-e-e-qual-a-diferenca-em-relacao-a-lgpd/">Cátedra</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
