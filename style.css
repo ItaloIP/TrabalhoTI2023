@@ -26,7 +26,6 @@ body{
 
 header{
     background-color: var(--backgroundHeadBlack);
-    position: sticky;
     color: #ddd;
     border-bottom: #ffffff 2px solid;
     padding: 20px 0;
@@ -44,7 +43,7 @@ header{
 .Username{
     display: flex;
     align-items: center;
-    margin: 0 33px;
+    margin: 0 20px;
     cursor: pointer;
 }
 
@@ -57,7 +56,7 @@ section{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin: 30px;
+    margin: 10px;
 }
 
 section > * {
